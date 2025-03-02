@@ -1,6 +1,7 @@
 import json
 
 
+
 def lambda_handler(event, context):
     products = [
         {"id": 1, "name": "Laptop", "price": 999.99},
